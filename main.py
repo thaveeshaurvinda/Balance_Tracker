@@ -1,6 +1,4 @@
 def input_int():
-    """This function the starting balance from user by validating.
-    This will ask user to input a correct integer rather than entering a string."""
     while True:
         try:
             start_price = int(input("Enter starting balance: "))
